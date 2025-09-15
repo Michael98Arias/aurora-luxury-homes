@@ -1,4 +1,4 @@
-import { get } from './httpServices';
+import { httpClientUsers } from './httpServices';
 import { AUTH_API } from './apiEndpoints';
 import { LoginPayload, LoginResponse } from '@/dto/auth.dto';
 import axios from 'axios';
@@ -11,11 +11,11 @@ export const login = async (payload: LoginPayload): Promise<LoginResponse> => {
   }
 
   try {
-    const response = await get(AUTH_API.LOGIN, {
+    const response = await httpClientUsers.get<LoginResponse[]>(AUTH_API.LOGIN, {
       params: { userName: username, password },
     });
 
-    const dataArray = response.data as LoginResponse[];
+    const dataArray = response.data;
 
     if (!dataArray || dataArray.length === 0) {
       throw new Error('Usuario no encontrado');
