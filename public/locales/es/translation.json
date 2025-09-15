@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "all": "Todo",
+    "contact": "Contacto",
+    "about": "Sobre Nosotros",
+    "logout": "cerrar sesión"
+  },
+  "home": {
+    "welcome": "¡Bienvenido a nuestro sitio web!",
+    "createProperty": "Crear propiedad"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "Es muy bueno que nos contactes para recibir soporte, información o sugerencias.",
+    "emailInfo": "contacto@ejemplo.com",
+    "phoneInfo": "+57 300 123 4567",
+    "form": {
+      "name": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "message": "Descripción",
+      "submit": "Enviar",
+      "sent": "Enviado",
+      "enterName": "Introduce tu nombre",
+      "enterLastName": "Introduce tu apellido",
+      "enterEmail": "Introduce tu correo electrónico",
+      "enterPhone": "Introduce tu teléfono",
+      "enterMessage": "Escribe tu mensaje"
+    }
+  },
+  "about": {
+    "aboutUs": "Sobre Nosotros",
+    "description": "Somos una empresa dedicada a proporcionar los mejores servicios inmobiliarios."
+  },
+  "login": {
+    "title": "Iniciar Sesión",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "submit": "Ingresar",
+    "loading": "Cargando...",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "welcomeTitle": "Bienvenido de nuevo",
+    "welcomeMessage": "Accede a tu cuenta para continuar",
+    "usernameRange": "Nombre de usuario: 4 a 14 caracteres",
+    "passwordRange": "Contraseña: 6 a 15 caracteres",
+    "incorrectData": "Datos incorrectos"
+  }
+}
