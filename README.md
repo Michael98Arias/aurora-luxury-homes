@@ -56,10 +56,10 @@ Features
 
 The following environment variables are defined in .env to store the Retool API endpoints:
 For authentication (login, session verification).
-    VITE_API_BASE_URL_USERS=https://retoolapi.dev/fake/apiUser
+    NEXT_PUBLIC_API_BASE_URL_USERS=https://retoolapi.dev/fake/apiUser
 
 To fetch the property list and details.
-    VITE_API_BASE_URL_PROPERTIES=
+    NEXT_PUBLIC_BASE_URL_PROPERTIES=
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).

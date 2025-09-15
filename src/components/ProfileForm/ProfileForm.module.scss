@@ -1,0 +1,38 @@
+.profile-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.profile-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.profile-info {
+  margin-bottom: 16px;
+}
+
+.profile-info-item {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.profile-info-item strong {
+  font-weight: 600;
+}
+
+.profile-info-item:last-child {
+  margin-bottom: 0;
+}
