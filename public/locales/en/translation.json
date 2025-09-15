@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "all": "All",
+    "contact": "Contact",
+    "about": "About Us",
+    "logout": "logout"
+  },
+  "home": {
+    "welcome": "Welcome to our website!",
+    "createProperty": "Create property"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "It is great to reach out to us for support, information, or suggestions.",
+    "emailInfo": "contact@example.com",
+    "phoneInfo": "+57 300 123 4567",
+    "form": {
+      "name": "Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send",
+      "sent": "Sent",
+      "enterName": "Enter your name",
+      "enterLastName": "Enter your last name",
+      "enterEmail": "Enter your email",
+      "enterPhone": "Enter your phone",
+      "enterMessage": "Write your message"
+    }
+  },
+  "about": {
+    "aboutUs": "About Us",
+    "description": "We are a company dedicated to providing the best real estate services."
+  },
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign In",
+    "loading": "Loading...",
+    "forgot": "Forgot your password?",
+    "welcomeTitle": "Welcome back",
+    "welcomeMessage": "Log in to your account to continue",
+    "usernameRange": "Username: 4 to 14 characters",
+    "passwordRange": "Password: 6 to 15 characters",
+    "incorrectData": "Incorrect data"
+  }
+}
