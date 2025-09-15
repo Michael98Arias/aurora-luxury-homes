@@ -45,5 +45,8 @@
     "usernameRange": "Nombre de usuario: 4 a 14 caracteres",
     "passwordRange": "Contraseña: 6 a 15 caracteres",
     "incorrectData": "Datos incorrectos"
+  },
+  "all": {
+    "loadMore": "Cargar más"
   }
 }

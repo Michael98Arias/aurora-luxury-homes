@@ -45,5 +45,8 @@
     "usernameRange": "Username: 4 to 14 characters",
     "passwordRange": "Password: 6 to 15 characters",
     "incorrectData": "Incorrect data"
+  },
+  "all": {
+    "loadMore": "Load more"
   }
 }
